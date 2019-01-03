@@ -32,5 +32,5 @@ async def on_message(message):
         em = discord.Embed(description='')
         em.set_image(url='https://i.imgur.com/CXBV7Lx.png')
         await client.send_message(message.channel, embed=em)
-client.run('NTMwNDM5OTQ2NzAwNTg3MDA4.Dw_aeg.2VlTtD545-nUUydavlokOFOFiG4')
+client.login(process.env.BOT_TOKEN);
 
