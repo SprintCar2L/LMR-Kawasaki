@@ -1,1 +1,1 @@
-worker: node LMR Kawasaki.js
+worker: node bot.js
